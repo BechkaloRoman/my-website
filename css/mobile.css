@@ -1,0 +1,222 @@
+@media screen and (max-width: 770px){
+     body {
+        max-width: 600px;
+        margin: 0 auto;
+        font-family: 'Merienda', cursive;
+    }
+    header nav ul {
+        display: none;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+     header {
+        background-image: url(/photo/north_america.jpg);
+        background-size: cover;
+        height: 170px;
+        width: 100%;
+        border-radius: 10px;
+         
+     }
+    h1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        color: #FBFBFB;
+        font-size: 150%;
+    }
+    h2 {
+        display: flex;
+        justify-content: center;
+        color: #FBFBFB;
+        font-size: 150%;
+    }
+     h3 {
+        color: #000000;
+        margin: 20px;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .burger-menu {
+        display: block;
+    }
+   .burger-menu ul {
+        width: 0px;
+        height: 40px;
+            margin-right: 10px;
+        float: right;
+        display: flex;
+        flex-direction: column;
+        right: 95px;
+        background-image: url(../photo/icon/menu.png);
+        background-size: cover;
+        overflow: hidden;
+        text-overflow: hidden;
+       
+    }
+   .burger-menu ul:hover {
+        width: 140px;
+        height: 240px;
+        float: right;
+        margin-top: 10px;
+        background-image: none;
+        position: absolute;
+        background-color: #7BB8E7;
+        border: 2px groove black;
+        border-radius: 9px;
+    }
+    .burger-menu ul li {
+        font-size: 27px;
+        list-style-type: none;
+        text-align: left;
+    }
+    .stiky {
+        display: none;
+    }
+   
+   .about {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        border: 2px solid #000000;
+        border-radius: 20px;
+    }
+    .first-aside {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .second-aside {
+            grid-column: 1/3;
+            grid-row: 3/4;
+            margin-top: -20px;
+            margin-left: 125px;
+
+    }
+    .my-story {
+        grid-column: 1/3;
+        grid-row: 2/3;
+        font-size: 30px;
+        padding: 0 30px 20px 30px;
+    }
+     #myPhoto {
+        max-width: 90%;
+        border-radius: 20px;
+        margin: 26px;
+    }
+    .second-aside h4 {
+        font-size: 1em;
+        margin:0;
+        margin-left: -100px;
+    }
+    .second-aside p {
+        font-size: 2em;
+        margin: 0;
+    }
+    #photo section {
+        margin-top: 20px;
+    }
+    #title-photo div {
+        border: 2px solid #000000;
+        border-radius: 20px;
+        height: 500px;
+    }
+   #title-education {
+        background-image: url(/photo/nu-lp.jpg);
+        background-size: cover;
+        border-radius: 20px;
+        height: 484px;
+        width: 100%;
+        margin-top: 0;
+    }
+    #title-education article {
+        font-size: 2em;
+        text-align: left;
+        color: #FBFBFB;
+    }
+    #title-education article h4 {
+        display: flex;
+        margin: 21px 0 10px 50px;
+        padding-top: 47px;
+    }
+    #title-education article h6 {
+        margin: 10px;
+    }
+     #skills-one {
+        display: flex;
+        justify-content: space-around;
+        margin: 50px;
+    }
+    #skills-one img {
+        width: 25%;
+        height: 1%;
+    }
+    #skills-two img {
+        width: 25%;
+        height: 1%;
+    }
+    #skills-two {
+        display: flex;
+        justify-content: space-around;
+        margin: 50px;
+    }
+    .skills {
+        border: 2px solid #000000;
+        border-radius: 20px;
+    }
+    
+    
+    
+    
+    
+     #title-contacts {
+        border: 2px solid #000000;
+        border-radius: 20px;
+        height: 500px;
+        display: grid;
+        padding:10px;
+    }
+    #title-contacts {
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+       
+    }
+    #title-contacts label {
+        font-size: 20px;
+       
+    }
+    #title-contacts #name {
+          width: 450px;
+    height: 40px;
+    margin: 22px 0 -100px 54px;
+    }
+    #title-contacts #email {
+          width: 450px;
+    height: 40px;
+    margin: 22px 0 -100px 54px;
+    }
+    #title-contacts textarea {
+          width: 450px;
+    height: 150px;
+    margin: 15px 0 0 112px;
+    
+    }
+    #title-contacts #sub {
+       width: 200px;
+    height: 50px;
+    margin: -15px 220px 0 70px;
+    background-color: #43B401;
+    }
+       #link {
+        display: flex;
+        justify-content: center;
+    }
+    #link a {
+        margin: 15px;
+    }
+    #copyright {
+        display: flex;
+        justify-content: center;
+    }
+   
+}

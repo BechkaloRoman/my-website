@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+@media (min-width:770px) {
+    body {
+        max-width: 1000px;
+        margin: 0 auto;
+        font-family: 'Merienda', cursive;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    header {
+        background-image: url(/photo/north_america.jpg);
+        background-size: cover;
+        height: 350px;
+        width: 100%;
+        border-radius: 20px;
+        
+    }
+    h1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 110px;
+        color: #FBFBFB;
+        font-size: 300%;
+    }
+    h2 {
+        display: flex;
+        justify-content: center;
+        color: #FBFBFB;
+        font-size: 200%;
+    }
+    .burger-menu {
+    display: none;
+    }
+    header nav ul {
+        display: flex;
+        justify-content: flex-end;
+        align-self: flex-start;
+        list-style-type: none;
+       
+    }
+    header nav ul li:hover {
+        background: #346079;
+    }
+    header nav ul li {
+        font-size: 26px;
+        margin: 15px;
+        padding: 5px;
+    }
+    h3 {
+        color: #000000;
+        margin: 20px;
+        font-size: 2em;
+        text-align: center;
+    }
+  
+    .about {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        border: 2px solid #000000;
+        border-radius: 20px;
+    }
+    .first-aside {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .second-aside {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-top: 40px;
+        margin-right: 100px;
+    }
+    .my-story {
+        grid-column: 1/3;
+        grid-row: 2/3;
+        font-size: 30px;
+        padding: 0 30px 20px 30px;
+    }
+    #myPhoto {
+        max-width: 100%;
+        border-radius: 20px;
+        margin: 20px 0 0 -20px;
+    }
+    .second-aside h4 {
+        font-size: 1em;
+        margin-left: 10px;
+        margin-top: 0;
+    }
+    .second-aside p {
+        font-size: 2em;
+        margin: 20px;
+    }
+    #photo section {
+        margin-top: 20px;
+    }
+    #title-photo div {
+        border: 2px solid #000000;
+        border-radius: 20px;
+        height: 500px;
+    }
+    #title-education {
+        background-image: url(/photo/nu-lp.jpg);
+        background-size: cover;
+        border-radius: 20px;
+        height: 484px;
+        width: 100%;
+        margin-top: 0;
+    }
+    #title-education article {
+        font-size: 36px;
+        text-align: center;
+        color: #FBFBFB;
+    }
+    #title-education article h4 {
+        display: flex;
+        margin: 21px 0 10px 50px;
+        padding-top: 47px;
+    }
+    #title-education article h6 {
+        margin: 10px;
+    }
+    #skills-one {
+        display: flex;
+        justify-content: space-around;
+        margin: 50px;
+    }
+    #skills-one img {
+        width: 25%;
+        height: 1%;
+    }
+    #skills-two img {
+        width: 25%;
+        height: 1%;
+    }
+    #skills-two {
+        display: flex;
+        justify-content: space-around;
+        margin: 50px;
+    }
+    .skills {
+        border: 2px solid #000000;
+        border-radius: 20px;
+    }
+    #title-contacts {
+        border: 2px solid #000000;
+        border-radius: 20px;
+        height: 500px;
+        display: grid;
+    }
+    #title-contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    #title-contacts label {
+        font-size: 20px;
+    }
+    #title-contacts #name {
+        width: 400px;
+        height: 40px;
+        margin: 51px 200px 3px 70px;
+    }
+    #title-contacts #email {
+        width: 400px;
+        height: 40px;
+        margin: 0px 200px 21px 70px;
+    }
+    #title-contacts textarea {
+        width: 400px;
+        height: 140px;
+        margin: -21px 205px -100px 70px;
+    }
+    #title-contacts #sub {
+        width: 150px;
+        height: 50px;
+        margin: 95px 205px -100px 70px;
+        background-color: #43B401;
+    }
+    #link {
+        display: flex;
+        justify-content: center;
+    }
+    #link a {
+        margin: 15px;
+    }
+    #copyright {
+        display: flex;
+        justify-content: center;
+    }
+}

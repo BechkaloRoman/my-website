@@ -1,165 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-     <link rel="shortcut icon" href="http://www.iconarchive.com/download/i98440/dakirby309/simply-styled/Shortcuts.ico">
+    <title>Roman Bechkalo</title>
+    <link rel="shortcut icon" href="http://www.iconarchive.com/download/i98440/dakirby309/simply-styled/Shortcuts.ico">
+    <link rel="stylesheet" href="/css/index.css">
+        <link rel="stylesheet" href="/css/mobile.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <div>
-            <div>
-                <h1>Hi! My name is Roman Bechkalo</h1>
-            </div>
-            <div>
-                <h1>Welcome to my website</h1>
-            </div>
-        </div>
-        <div>
-              <img src="photo/severnaya-amerika.jpg" alt="severnaya-amerika" >
-        </div> 
-        
-        <form>
-            <label>
-                <input type="search" placeholder="Search">
-            </label>
-        </form>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Photo</li>
-                    <li>Education</li>
-                    <li>Skills</li>
-                    <li>Contacts</li>
-                    <li>Links</li>
+    <div id="homePage">
+        <header>
+
+            <nav class="absolute">
+                <ul class="stiky">
+                    <li><a class="active" href="#homePage">Home</a></li>
+                    <li><a href="#about_me">About</a></li>
+                    <li><a href="#photo">Photo</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
                 </ul>
             </nav>
-    </header>
-    <main>
-        <section>
-            <h2>ABOUT ME</h2>
-                <div>
-                <aside>
-                    <figure>
-                        <img src="photo/my-photo.jpg" alt="Roman Behkalo">
-                    </figure>
-                </aside>    
-                <aside>
-                    <article>
-                        <div>
-                            <h3>FULL NAME</h3>
-                            <p>Roman Bechkalo</p>
-                            <img src="photo/icon/icon1.jpg" alt="icon1">
-                        </div>
-                         <div>
-                            <h3>ADDRESS</h3>
-                            <p>Lviv, Ukraine</p>
-                            <img src="photo/icon/icon2.jpg" alt="icon2">
-                        </div>
-                         <div>
-                            <h3>BIRTHDAY</h3>
-                            <p>01.Dec.1996</p>
-                            <img src="photo/icon/icon3.jpg" alt="icon3">
-                        </div>
-                         <div>
-                            <h3>EMAIL</h3>
-                            <p>bechkalor@gmail.com</p>
-                            <img src="photo/icon/icon4.jpg" alt="icon4">
-                        </div>
-                         <div>
-                            <h3>PHONE</h3>
-                            <p>+380-96-66-58-084</p>
-                            <img src="photo/icon/icon5.jpg" alt="icon5">
-                        </div>
-                    </article>
-                </aside>    
-                </div>
-        </section>
-        
-        <section>
-            <h2>PHOTO</h2>
-                <div>
-                    <div>
-                        <!--???????????-->
-                        <img src="photo/" alt="photo">
-                    </div>
-                </div>
-        </section>
-        
-        <section>
-            <h2>EDUCATION</h2>
-                <div>
-                    <div>
-                        <img src="photo/nu-lp.jpg" alt="nu-lp">
-                    </div>
-                    <article>
-                        <h4>Lviv Polytechnic National University</h4>
-                        <h6>Systems Engineering -2014-2018</h6>
-                        <h4>Logos IT Academy</h4>
-                        <h6>Java 2016-2017</h6>
-                        <h4>SoftServe IT Academy</h4>
-                        <h6>HTML5 CSS3 JavaScript 2017</h6>
-                    </article>
-                </div>
-        </section>
-        
-        <section>
-            <h2>SKILLS</h2>
+             <nav class="burger-menu">
+                <ul  >
+                    <li><a class="active" href="#homePage">Home</a></li>
+                    <li><a href="#about_me">About</a></li>
+                    <li><a href="#photo">Photo</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+            
+            <h1>Hi! My name is Roman Bechkalo</h1>
+            <h2>Welcome to my website</h2>
+
+
+        </header>
+    </div>
+    <div id="about_me">
+        <h3 class="about-h3">ABOUT ME</h3>
+        <div class="about">
+            <aside class="first-aside">
+                <img id="myPhoto" src="/photo/my-photo.jpg" alt="Roman Behkalo">
+            </aside>
+            <aside class="second-aside">
+                <h4>FULL NAME:</h4>
+                <p>Roman Bechkalo</p>
+                <h4>ADDRESS:</h4>
+                <p>Lviv, Ukraine</p>
+                <h4>BIRTHDAY:</h4>
+                <p>01.Dec.1996</p>
+                <h4>EMAIL:</h4>
+                <p>bechkalor@gmail.com</p>
+                <h4>PHONE:</h4>
+                <p>+380-96-66-58-084</p>
+
+            </aside>
+            <aside class="my-story">
+                <p>Hello. I am a Roman. I'm a student at SoftServe IT University. I want to get a lot of JavaScript practice. I want to be a full web developer. I already knew HTML, CSS. I study at Lviv Polytechnic University. This is my fourth year here</p>
+            </aside>
+        </div>
+    </div>
+
+    <div id="photo">
+        <section id="title-photo">
+            <h3>PHOTO</h3>
             <div>
-                    <div>
-                        <img src="photo/icon/html-icon.jpg" alt="html-icon">
-                        <img src="photo/icon/css-icon.jpg" alt="css-icon">
-                        <img src="photo/icon/js-icon.jpg" alt="js-icon">
-                    </div>
-                    <div>
-                        <img src="photo/icon/c++icon.jpg" alt="c++icon">
-                        <img src="photo/icon/my-sql-icon.jpg" alt="my-sql-icon">
-                    </div>
+                <img src="photo/" alt="photo">
             </div>
         </section>
-        
-        <section>
-            <h2>  FEEL FREE TO CONTACT ME    </h2>
-            <div>
-                    <form method="POST" action="https://formspree.io/bechkalor@gmail.com">
-                        <label>Name:
-                            <input type="text" name="client-name" placeholder="Your Name" maxlength="12" required  >
-                            <br>
-                        </label>
-                            <br>
-                        <label>Email:
-                            <input type="email" name="email" placeholder="Your Email" required maxlength="30" >
-                            <br>
-                        </label>
-                            <br>
-                        <label>Your message:</label>
-                            <br>
-                            <textarea rows="8" cols="30" autofocus>
-                            </textarea>
-                            <br>
-                         <input type="submit" value="SEND">
-                    </form>s
+    </div>
+    <div id="education">
+         <h3>EDUCATION</h3>
+        <section id="title-education">
+           
+            <article>
+                <h4>Lviv Polytechnic National University</h4>
+                <h6>Systems Engineering 2014-2018</h6>
+                <h4>SoftServe IT Academy</h4>
+                <h6>HTML5 CSS3 JavaScript 2017</h6>
+            </article>
+        </section>
+    </div>
+    <div id="skills">
+        <section id="title-skills">
+            <h3>SKILLS</h3>
+            <div class="skills">
+                <div id="skills-one">
+                    <img src="/photo/icon/html5_logo .png" alt="html-icon">
+                    <img src="/photo/icon/css3 .png" alt="css-icon">
+                    <img src="/photo/icon/js.png" alt="js-icon">
+                </div>
+                <div id="skills-two">
+                    <img src="/photo/icon/C++.png" alt="c++icon">
+                    <img src="/photo/icon/mysq.png" alt="my-sql-icon">
+                </div>
             </div>
         </section>
-        
+    </div>
+    <div id="contacts">
         <section>
-            <h2>  MAPS    </h2>
+            <h3> FEEL FREE TO CONTACT ME </h3>
+            <div >
+                <form id="title-contacts">
+                    <label clas="name">
+                        Name:<input id="name" type="text" placeholder="Your Name" maxlength="12"  >
+                            <br>
+                    </label>
+                    <br>
+                    <label class="email">
+                        Email:<input id="email" type="email"  placeholder="Your Email"  maxlength="30" >
+                            <br>
+                    </label>
+                    <br>
+                    <label class="message">
+                        Your message:
+                        <textarea id="message" rows="8" cols="30"></textarea>
+                    </label>
+                    <br>
+                    <input id="sub" type="submit" value="SEND">
+                </form>
+            </div>
         </section>
-    </main>
-    
+    </div>
+
+
     <footer>
-            <div>
-                <a href="https://www.facebook.com/profile.php?id=100010981777802"> <img src="photo/icon/facebook.jpg" alt="facebook"></a>
-                <a href="https://www.instagram.com/romanbechkalo/?hl=ru"> <img src="photo/icon/instagram.jpg" alt="instagram"></a>
-                <a href="https://www.youtube.com/channel/UCMceSeh5S5j-SzSVyfnW8Lg?view_as=subscriber" > <img src="photo/icon/youtube.jpg" alt="youtube"></a>
-            </div>
-        <div>
+        <div id="link">
+            <a href="https://www.facebook.com/profile.php?id=100010981777802"> <img src="/photo/icon/facebook.jpg" alt="facebook"></a>
+            <a id="insta" href="https://www.instagram.com/romanbechkalo/?hl=ru"> <img src="/photo/icon/instagram.jpg" alt="instagram"></a>
+            <a href="https://www.youtube.com/channel/UCMceSeh5S5j-SzSVyfnW8Lg?view_as=subscriber"> <img src="/photo/icon/youtube.jpg" alt="youtube"></a>
+        </div>
+        <div id="copyright">
             <p> Copyright 2017 Roman Bechkalo</p>
         </div>
     </footer>
     
+    
+    
+    <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous">
+    </script>
+    
+    <script src="js/form.js"></script> 
+    <script type="text/javascript" src="js/index.js"></script>
+    
+    
+    
 </body>
+
 </html>
