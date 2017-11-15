@@ -10,7 +10,7 @@
         color: black;
     }
     header {
-        background-image: url(photo/north_america.jpg);
+        background-image: url(../photo/north_america.jpg);
         background-size: cover;
         height: 350px;
         width: 100%;
@@ -100,7 +100,7 @@
         height: 500px;
     }
     #title-education {
-        background-image: url(photo/nu-lp.jpg);
+        background-image: url(../photo/nu-lp.jpg);
         background-size: cover;
         border-radius: 20px;
         height: 484px;
