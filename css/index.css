@@ -95,9 +95,9 @@
         margin-top: 20px;
     }
     #title-photo div {
-        border: 2px solid #000000;
+       
         border-radius: 20px;
-        height: 500px;
+        height: 600px;
     }
     #title-education {
         background-image: url("../photo/nu-lp.jpg");

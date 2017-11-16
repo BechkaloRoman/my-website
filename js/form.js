@@ -1,4 +1,5 @@
-// JavaScript File
+
+
 $('form input[type="submit"]').click(sendForm);
 
 function sendForm(e) {

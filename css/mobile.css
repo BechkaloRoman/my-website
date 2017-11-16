@@ -1,6 +1,7 @@
 @media screen and (max-width: 770px){
      body {
         max-width: 600px;
+        min-width: 350px;
         margin: 0 auto;
         font-family: 'Merienda', cursive;
     }
@@ -48,7 +49,7 @@
         float: right;
         display: flex;
         flex-direction: column;
-        right: 95px;
+        right: 50px;
         background-image: url("../photo/icon/menu.png");
         background-size: cover;
         overflow: hidden;
@@ -56,10 +57,9 @@
        
     }
    .burger-menu ul:hover {
-        width: 140px;
-        height: 240px;
+        width: 160px;
+        height: 200px;
         float: right;
-        margin-top: 10px;
         background-image: none;
         position: absolute;
         background-color: #7BB8E7;
@@ -67,7 +67,7 @@
         border-radius: 9px;
     }
     .burger-menu ul li {
-        font-size: 27px;
+        font-size: 20px;
         list-style-type: none;
         text-align: left;
     }
@@ -95,8 +95,8 @@
     .my-story {
         grid-column: 1/3;
         grid-row: 2/3;
-        font-size: 30px;
-        padding: 0 30px 20px 30px;
+        font-size: 150%;
+        padding: 0 15px 20px 15px;
     }
      #myPhoto {
         max-width: 90%;
@@ -109,16 +109,16 @@
         margin-left: -100px;
     }
     .second-aside p {
-        font-size: 2em;
+        font-size: 110%;
         margin: 0;
     }
     #photo section {
         margin-top: 20px;
     }
     #title-photo div {
-        border: 2px solid #000000;
+       
         border-radius: 20px;
-        height: 500px;
+        height: 100%;
     }
    #title-education {
         background-image: url("../photo/nu-lp.jpg");
@@ -163,11 +163,6 @@
         border: 2px solid #000000;
         border-radius: 20px;
     }
-    
-    
-    
-    
-    
      #title-contacts {
         border: 2px solid #000000;
         border-radius: 20px;
@@ -186,26 +181,26 @@
        
     }
     #title-contacts #name {
-          width: 450px;
-    height: 40px;
-    margin: 22px 0 -100px 54px;
+        width: 80%;
+        height: 40px;
+        margin: 0 0 -100px 25%;
     }
     #title-contacts #email {
-          width: 450px;
-    height: 40px;
-    margin: 22px 0 -100px 54px;
+        width: 80%;
+        height: 40px;
+        margin: 0 0 -100px 25%;
     }
     #title-contacts textarea {
-          width: 450px;
-    height: 150px;
-    margin: 15px 0 0 112px;
+        width: 100%;
+        height: 150px;
+        margin: 0 0 0 0;
     
     }
     #title-contacts #sub {
-       width: 200px;
-    height: 50px;
-    margin: -15px 220px 0 70px;
-    background-color: #43B401;
+        width: 200px;
+        height: 50px;
+        margin: -15px 0 0 0;
+        background-color: #43B401;
     }
        #link {
         display: flex;
