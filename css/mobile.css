@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Alice');
 @media screen and (max-width: 770px){
+    
      body {
         max-width: 600px;
         min-width: 350px;
@@ -96,6 +98,7 @@
         grid-column: 1/3;
         grid-row: 2/3;
         font-size: 150%;
+        text-align: justify;
         padding: 0 15px 20px 15px;
     }
      #myPhoto {
@@ -114,6 +117,7 @@
     }
     #photo section {
         margin-top: 20px;
+         border-radius: 20px;
     }
     #title-photo div {
        
@@ -184,30 +188,35 @@
         width: 80%;
         height: 40px;
         margin: 0 0 -100px 25%;
+        font-family: 'Alice', serif;
     }
     #title-contacts #email {
         width: 80%;
         height: 40px;
         margin: 0 0 -100px 25%;
+        font-family: 'Alice', serif;
     }
     #title-contacts textarea {
         width: 100%;
         height: 150px;
         margin: 0 0 0 0;
+        font-family: 'Alice', serif;
     
     }
     #title-contacts #sub {
         width: 200px;
         height: 50px;
         margin: -15px 0 0 0;
-        background-color: #43B401;
+        background-color: #0f72dc;
+        border-radius: 15px;
     }
        #link {
         display: flex;
         justify-content: center;
     }
     #link a {
-        margin: 15px;
+         margin: 15px;
+        width: 64px;
     }
     #copyright {
         display: flex;
