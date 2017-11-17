@@ -139,20 +139,23 @@
             <div>
                 <form id="title-contacts">
                     <label class="name">
-                        Name:<input id="name" type="text" placeholder="Your Name" maxlength="12"  >
+                        Name:<input id="name" type="text" require placeholder="Your Name" maxlength="12"  >
                             <br>
                     </label>
                     <br>
                     <label class="email">
-                        Email:<input id="email" type="email"  placeholder="Your Email"  maxlength="30" >
+                        Email:<input id="email" type="email"  require  placeholder="Your Email"  maxlength="30" >
                             <br> 
                     </label>
                     <br>
                     <label class="message">
                         Message:
-                        <textarea id="message" rows="8" cols="30"></textarea>
+                        <textarea id="message"  require rows="8" cols="30"></textarea>
                     </label>
                     <br>
+                     <br>
+                      <br>
+                    <div id="msg"></div>
                     <input id="sub" type="submit" value="SEND">
                 </form>
             </div>
