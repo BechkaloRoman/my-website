@@ -203,6 +203,9 @@
         font-family: 'Alice', serif;
     
     }
+    #msg{
+        margin: 0;
+    }
     #title-contacts #sub {
         width: 200px;
         height: 50px;

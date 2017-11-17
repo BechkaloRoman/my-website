@@ -177,10 +177,13 @@
         margin: -21px 205px -100px 70px;
         font-size: 20px;
     }
+     #msg{
+        margin: 70px 420px -140px 0;
+    }
     #title-contacts #sub {
         width: 150px;
         height: 50px;
-        margin: 95px 205px -100px 70px;
+        margin: 110px 205px -100px 70px;
         background-color: #0f72dc;
         border-radius: 15px;
         
