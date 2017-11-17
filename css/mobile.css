@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Alice');
+
 @media screen and (max-width: 770px){
-    
      body {
         max-width: 600px;
         min-width: 350px;
@@ -47,7 +47,7 @@
    .burger-menu ul {
         width: 0px;
         height: 40px;
-            margin-right: 10px;
+        margin-right: 10px;
         float: right;
         display: flex;
         flex-direction: column;
@@ -65,7 +65,7 @@
         background-image: none;
         position: absolute;
         background-color: #7BB8E7;
-        border: 2px groove black;
+        border: 2px solid black;
         border-radius: 9px;
     }
     .burger-menu ul li {
@@ -222,5 +222,4 @@
         display: flex;
         justify-content: center;
     }
-   
 }
