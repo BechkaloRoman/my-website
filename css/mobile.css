@@ -185,13 +185,13 @@
        
     }
     #title-contacts #name {
-        width: 80%;
+        width: 75%;
         height: 40px;
         margin: 0 0 -100px 25%;
         font-family: 'Alice', serif;
     }
     #title-contacts #email {
-        width: 80%;
+        width: 75%;
         height: 40px;
         margin: 0 0 -100px 25%;
         font-family: 'Alice', serif;
