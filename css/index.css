@@ -199,9 +199,18 @@
      #link a img {
         margin: 15px;
         width: 64px;
+         opacity: 0.9;
+        transition: 1s;
      }
     #copyright {
         display: flex;
         justify-content: center;
+    }
+    #link a img:hover{
+    opacity: 1.0;
+    transform: rotate(360deg);
+    width: 75px;
+    height: 75px;
+    margin:5px;
     }
 }
